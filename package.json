@@ -1,0 +1,28 @@
+{
+  "name": "flip-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL server wrapping rest api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/main.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphiql": "^0.11.2",
+    "graphql": "^0.10.3",
+    "node-fetch": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1",
+    "nodemon": "^1.11.0"
+  }
+}
